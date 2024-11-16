@@ -44,7 +44,7 @@ Publish the website in the given URL.
     
     <div class="gallery">
         <div class="gallery-item">
-            <img src="{% static 'img/i1.jpg' %}" alt="Sunflower">
+            <img src="{% static 'img/i1.jpg' %}" alt="">
             <p>Blue Jay</p>
         </div>
         <div class="gallery-item">
@@ -52,15 +52,15 @@ Publish the website in the given URL.
             <p>Ara macao</p>
         </div>
         <div class="gallery-item">
-            <img src="{% static 'img/i3.jpg' %}" alt="Butterfly">
+            <img src="{% static 'img/i3.jpg' %}" alt="">
             <p>Arafed red bird</p>
         </div>
         <div class="gallery-item">
-            <img src="{% static 'img/i4.jpg' %}" alt="Rose">Bright Exotic Bir
+            <img src="{% static 'img/i4.jpg' %}" alt="">
             <p>Bright Exotic Bird</p>
         </div>
         <div class="gallery-item">
-            <img src="{% static 'img/i5.jpg' %}" alt="Rose">
+            <img src="{% static 'img/i5.jpg' %}" alt="">
             <p>Humming Bird</p>
         </div>
         <div class="gallery-item">
@@ -78,6 +78,7 @@ Publish the website in the given URL.
     </div>
 </body>
 </html>
+
 ```
 
 ##css
@@ -145,7 +146,8 @@ h1 {
 
 ## OUTPUT:
 ![Screenshot (334)](https://github.com/user-attachments/assets/6e009e2e-59e0-4cdd-8afe-9956ea87a07b)
-![Screenshot (338)](https://github.com/user-attachments/assets/41bb2e5e-a6b9-4652-9280-5c6c36e9075b)
+![Screenshot (340)](https://github.com/user-attachments/assets/a28805dc-7f41-4fd4-a6d2-fd9ebdc8a750)
+
 
 
 
