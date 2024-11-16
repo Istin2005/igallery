@@ -99,31 +99,31 @@ h1 {
 
 .gallery {
     display: flex;
-    flex-wrap: wrap; /* Allows images to wrap to the next row if they don’t fit */
-    gap: 100px; /* Adds space between gallery items */
-    justify-content: center; /* Center the gallery in the window */
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
     padding: 20px;
 }
 
 .gallery-item {
     position: relative;
-    width: 20%; /* 3 images per row */
-    height: auto; /* Allow height to be automatic based on image aspect ratio */
-    overflow: hidden; /* Hide parts of the image that overflow */
-    border-radius: 10px; /* Smooth corners */
+    width: 20%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out;
-    margin-bottom: 15px; /* Space between rows */
+    margin-bottom: 15px;
 }
 
 .gallery-item:hover {
-    transform: scale(1.1); /* Slight zoom effect on hover */
+    transform: scale(1.1);
 }
 
 .gallery-item img {
-    width: 100%; /* Make the image fit the gallery item */
-    height: 100%; /* Ensure the image stretches vertically to fill the space */
-    object-fit: cover; /* Crop the image to fill the area */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 10px;
 }
 
@@ -135,12 +135,13 @@ h1 {
     text-align: center;
     font-size: 2.5rem;
     color: #fff;
-    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    background: rgba(0, 0, 0, 0.6);
     padding: 5px;
     margin: 0;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+
 
 ```
 
