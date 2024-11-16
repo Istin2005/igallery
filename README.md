@@ -26,6 +26,7 @@ Publish the website in the given URL.
 
 ## PROGRAM :
 ##HTML
+```
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
@@ -77,10 +78,10 @@ Publish the website in the given URL.
     </div>
 </body>
 </html>
-
+```
 
 ##css
-
+```
 body {
     font-family: 'Satisfy', cursive;
     margin: 0;
@@ -140,7 +141,7 @@ h1 {
     border-bottom-right-radius: 10px;
 }
 
-
+```
 
 ## OUTPUT:
 ![Screenshot (334)](https://github.com/user-attachments/assets/6e009e2e-59e0-4cdd-8afe-9956ea87a07b)
